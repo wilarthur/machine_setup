@@ -2,7 +2,7 @@
 
 ## Installing WSL and Ubuntu
 
-1. Open powershell or terminal and enter:
+1. Open Powershell and enter:
    ```
    wsl --install
    ```
