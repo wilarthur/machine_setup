@@ -15,3 +15,16 @@
 
 
 More information found on the [Microsoft website](https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl) for NVM and Node in WSL.
+
+## Git and GitHub
+
+1. Run ```sudo apt install git``` to install Git
+2. Run ``` git --version ``` to check the installed version of Git
+3. Run ``` sudo apt install gh``` to install GitHub
+4. Run ```gh auth login``` to run the login process for GitHub
+5. Authenticate using a Web Browser and copy the generated one-time code
+6. Paste the code in the browser (For WSL, you have to manually navigate to the site in a Windows browser)
+7. Select SSH as the default protocol (This method is more secure than HTTPS)
+8. Let GH generate and store the SSH key for you
+9. Try and clone any GH repo and GH will ask you to set your email address and username so they know who is making the request
+10. GH CLI should now be configured
